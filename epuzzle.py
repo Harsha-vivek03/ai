@@ -68,9 +68,9 @@ def astar(initial_state):
 
                     if not found_better:
                         heapq.heappush(open_set, child_state)
-
+    print()
     return None
-
+    
 def main():
     print("Enter the initial state:")
     initial_state = []
